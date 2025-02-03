@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "qa-api-challenge"
+version = "0.1.0"
+description = "API Coding Challenge"
+authors = ["Maciej Brzostowski <maciejbrzost@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12.6"
+pre-commit = "^4.1.0"
+black = "^25.1.0"
+isort = "^6.0.0"
+flake8 = "^7.1.1"
+pytest = "^8.3.4"
+selenium = "^4.28.1"
+webdriver-manager = "^4.0.2"
+xdist = "^0.0.2"
+pytest-xdist = "^3.6.1"
+flake8-pyproject = "^1.2.3"
+
+[tool.flake8]
+max-line-length = 100
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
