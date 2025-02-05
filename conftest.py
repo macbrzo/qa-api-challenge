@@ -1,6 +1,6 @@
 import pytest
 
-from libs.core.api.cat_facts_api import CatFactsApi
+from libs.system.cat_facts.cat_facts_api import CatFactsApi
 
 
 @pytest.fixture

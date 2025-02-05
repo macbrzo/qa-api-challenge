@@ -1,8 +1,7 @@
 from typing import Optional
 
 import config
-
-from .api_client import ApiClient
+from libs.core.api.api_client import ApiClient
 
 
 class CatFactsApi(ApiClient):
@@ -31,7 +30,7 @@ class CatFactsApi(ApiClient):
             params["page"] = page
         return params
 
-    def get_fact(self, max_length: Optional[int] = None):
+    def get_random_fact(self, max_length: Optional[int] = None):
         params = self.build_params(max_length=max_length)
         return self.get("/fact", params=params)
 
