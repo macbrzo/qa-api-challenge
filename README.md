@@ -11,7 +11,7 @@ This repository was created as part of a recruitment challenge
 
    ```bash
    git clone https://github.com/macbrzo/qa-api-challenge
-   cd qa-challenge
+   cd qa-api-challenge
    ```
 2. **Install Poetry:**
 
