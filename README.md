@@ -32,7 +32,7 @@ This repository was created as part of a recruitment challenge
 2. **Run automation:**
 
     ```bash
-   pytest auto
+   pytest
    ```
 
 ## Test Scenarios
